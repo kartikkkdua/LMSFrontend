@@ -2,8 +2,6 @@
 
 Welcome to the **Learning Journey Platform**, a modern and intuitive web application designed to enhance your learning experience with curated courses and expert-led events.
 
-![Project Screenshot](https://via.placeholder.com/1200x600.png?text=Project+Screenshot)
-
 ---
 
 ## Table of Contents
@@ -14,9 +12,6 @@ Welcome to the **Learning Journey Platform**, a modern and intuitive web applica
 4. [Getting Started](#getting-started)
 5. [How to Run](#how-to-run)
 6. [Folder Structure](#folder-structure)
-7. [Screenshots](#screenshots)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ---
 
@@ -61,5 +56,59 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/learning-journey-platform.git
-   cd learning-journey-platform
+   git clone https://github.com/kartikkkdua/LMSFrontend
+   cd LMSFrontend
+
+
+
+
+package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── components
+│   │   ├── AchievementBadges.jsx
+│   │   ├── ActivityFeed.jsx
+│   │   ├── Button.jsx
+│   │   ├── CourseCard.jsx
+│   │   ├── CourseProgress.jsx
+│   │   ├── CourseRecommendations.jsx
+│   │   ├── DarkModeToggle.jsx
+│   │   ├── ErrorPage.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── LoadingSpinner.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProfileCard.jsx
+│   │   └── ProfileSettings.jsx
+│   ├── context
+│   │   └── AuthContext.jsx
+│   ├── data
+│   │   ├── activities.js
+│   │   └── courses.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── pages
+│   │   ├── Courses.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── ForgotPassword.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Profile.jsx
+│   │   ├── ResetPassword.jsx
+│   │   └── Signup.jsx
+│   ├── reportWebVitals.js
+│   ├── services
+│   │   └── api.js
+│   └── setupTests.js
+
